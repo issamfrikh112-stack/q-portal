@@ -1,0 +1,15 @@
+// Version: 1.0.0
+type AnnouncementId__675324675 = Nat;
+type Announcement__160704614 =
+  {body : Text; id : AnnouncementId__675324675; title : Text};
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+actor {
+  stable announcements :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Announcement__160704614]];
+      var elementIndex : Nat__490723111
+    };
+  stable nextAnnouncementId : {var value : Nat}
+};

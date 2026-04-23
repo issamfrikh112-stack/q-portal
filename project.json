@@ -1,0 +1,22 @@
+{
+  "overview": "Q+ is a public services portal app with a 9-category browse grid, backend-driven announcements feed, admin panel, and placeholder detail pages for each service category.",
+  "features": [
+    "9-category service grid (Library, Marketplace, Real Estate, Tourism, News, Education, Social, Health, Jobs)",
+    "Real-time search filtering of categories",
+    "Backend-driven announcements feed on home screen",
+    "Fixed bottom navigation with Home, Services, Profile tabs",
+    "Category detail placeholder pages with back navigation",
+    "Admin panel in Profile tab to add and delete announcements",
+    "Login via Internet Identity to access admin features",
+    "Minimal government-style clean UI matching provided mock"
+  ],
+  "category": "productivity",
+  "tags": [
+    "portal",
+    "government",
+    "categories",
+    "announcements",
+    "admin"
+  ],
+  "last_updated": "2026-04-23T04:23:16.301Z"
+}

@@ -1,0 +1,12 @@
+type AnnouncementId = nat;
+type Announcement = 
+ record {
+   body: text;
+   id: AnnouncementId;
+   title: text;
+ };
+service : {
+  addAnnouncement: (title: text, body: text) -> (Announcement);
+  deleteAnnouncement: (id: AnnouncementId) -> (bool);
+  getAnnouncements: () -> (vec Announcement) query;
+}
